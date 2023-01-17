@@ -3,8 +3,6 @@
 // press Keys or piano buttons to generate the digital collage //
 
 let C, D, E, F, G, A, B, U;
-let song;
-let song2;
 
 let stars;
 let arrayOfStars = [];
