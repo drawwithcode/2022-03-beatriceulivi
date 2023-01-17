@@ -1,4 +1,4 @@
- // ********* THE BATTY PIANO ********* //
+// ********* THE BATTY PIANO ********* //
 // This sketch is optimized for the screen of Macbook Pro 13 //
 // press Keys or piano buttons to generate the digital collage //
 
@@ -45,33 +45,33 @@ let on8 = false;
 
 function preload() {
 
-myFont = loadFont('assets/PicNic.otf');
+  myFont = loadFont('assets/PicNic.otf');
 
-cloud1 = loadImage("./assets/nuvola.png")
-cloud2 = loadImage("./assets/nuvola2.png")
-fish = loadImage("./assets/pesce.png")
-cat = loadImage("./assets/cat.png")
-back = loadImage("./assets/fondo.png")
-finger = loadImage("./assets/indice.png")
-desert = loadImage("./assets/deserto.png")
-choir = loadImage("./assets/coro.png")
-bird = loadImage("./assets/bird.png")
-up = loadImage("./assets/up.png")
-orange = loadImage("./assets/arancia.png")
-eye = loadImage("./assets/eye.png")
-
-C = loadSound("./assets/sound/C.mp3");
-D = loadSound("./assets/sound/D.mp3");
-E = loadSound("./assets/sound/E.mp3");
-F = loadSound("./assets/sound/F.mp3");
-G = loadSound("./assets/sound/G.mp3");
-A = loadSound("./assets/sound/A.mp3");
-B = loadSound("./assets/sound/B.mp3");
-U = loadSound("./assets/sound/U.mp3");
-
-for(let i = 0; i < 1; i++){
-  money[i] = loadImage("./assets/moneta.png");
-}
+  cloud1 = loadImage("./assets/nuvola.png")
+  cloud2 = loadImage("./assets/nuvola2.png")
+  fish = loadImage("./assets/pesce.png")
+  cat = loadImage("./assets/cat.png")
+  back = loadImage("./assets/fondo.png")
+  finger = loadImage("./assets/indice.png")
+  desert = loadImage("./assets/deserto.png")
+  choir = loadImage("./assets/coro.png")
+  bird = loadImage("./assets/bird.png")
+  up = loadImage("./assets/up.png")
+  orange = loadImage("./assets/arancia.png")
+  eye = loadImage("./assets/eye.png")
+  
+  C = loadSound("./assets/sound/C.mp3");
+  D = loadSound("./assets/sound/D.mp3");
+  E = loadSound("./assets/sound/E.mp3");
+  F = loadSound("./assets/sound/F.mp3");
+  G = loadSound("./assets/sound/G.mp3");
+  A = loadSound("./assets/sound/A.mp3");
+  B = loadSound("./assets/sound/B.mp3");
+  U = loadSound("./assets/sound/U.mp3");
+  
+  for(let i = 0; i < 1; i++){
+    money[i] = loadImage("./assets/moneta.png");
+  }
 
 
 }
