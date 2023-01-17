@@ -1,4 +1,4 @@
-// ********* THE BATTY PIANO ********* //
+ // ********* THE BATTY PIANO ********* //
 // This sketch is optimized for the screen of Macbook Pro 13 //
 // press Keys or piano buttons to generate the digital collage //
 
